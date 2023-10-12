@@ -68,26 +68,85 @@ a{
 }
 
 .main_page {
+	display: flex;
+	align-items: flex-end;
+	height: 80vh;
 }
-.container {
+
+.main-page_body{
+	display: flex;
+	justify-content: space-between;
 }
+
 .main-page_part1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .peopleimg {
+	width: 300px;
+	margin: 0px 70px 0px 0px;
 }
 .main-page_part2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .nft-collection {
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 138%;
+	letter-spacing: 0em;
+	text-align: center;
 }
 .title {
+	font-family: Montserrat;
+font-size: 60px;
+font-weight: 700;
+line-height: 106%;
+letter-spacing: 0em;
+text-align: center;
+	margin: 5px 0px 0px 0px;
 }
 .sub-title {
+	width: 400px;
+	font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 178%;
+letter-spacing: 0em;
+text-align: center;
+	margin: 20px 0px 0px 0px;
 }
 .openSea {
+	background-color: #F7859C;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 138%;
+	letter-spacing: 0em;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.3s ease 0s;
+	margin: 10px 0px 0px 0px;
 }
+
+.openSea:hover{
+	box-shadow: 0px 0px 10px #F7859C;
+	position: relative;
+	bottom: 1px;
+	transition: all 0.3s ease 0s;
+}
+
 .main-page_part3 {
 }
 .peopleimg2 {
+	width: 300px;
+	margin: 0px 0px 0px 70px;
 }
 
 @media(max-width: 840px){

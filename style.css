@@ -68,5 +68,25 @@ a{
 }
 
 @media(max-width: 840px){
-	
+	.wrap{
+		background-position: center;
+	}
+}
+
+@media(max-width: 630px){
+	.header_list{
+		height: 15vh;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.help{
+		margin: 10px 0px 0px 0px;
+	}
+
+	.header_link{
+		margin: 0px 30px 0px 0px;
+	}
+
 }

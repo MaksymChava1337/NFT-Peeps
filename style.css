@@ -67,6 +67,29 @@ a{
 	text-decoration: none;
 }
 
+.main_page {
+}
+.container {
+}
+.main-page_part1 {
+}
+.peopleimg {
+}
+.main-page_part2 {
+}
+.nft-collection {
+}
+.title {
+}
+.sub-title {
+}
+.openSea {
+}
+.main-page_part3 {
+}
+.peopleimg2 {
+}
+
 @media(max-width: 840px){
 	.wrap{
 		background-position: center;
@@ -90,3 +113,4 @@ a{
 	}
 
 }
+

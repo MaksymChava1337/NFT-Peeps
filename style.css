@@ -38,7 +38,6 @@ li{
 	margin: 0px 30px 0px 0px;
 	font-family: Open Sans;
 	font-size: 14px;
-	font-weight: 700;
 	line-height: 138%;
 	letter-spacing: 0em;
 	text-align: left;
@@ -66,4 +65,8 @@ li{
 
 a{
 	text-decoration: none;
+}
+
+@media(max-width: 840px){
+	
 }

@@ -244,12 +244,119 @@ text-align: left;
 	width: 100%;
 }
 
+.wave{
+	position: relative;
+	top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.ec_sub-title {
+	display: flex;
+	align-items: flex-end;
+	font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 136%;
+letter-spacing: 0em;
+text-align: left;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+	background-color: #FF8961;
+	
+}
+
+.ec_title {
+	font-family: Montserrat;
+font-size: 50px;
+font-weight: 700;
+line-height: 116%;
+letter-spacing: 0em;
+text-align: left;
+	margin: 10px 0px 50px 0px;
+}
+.ec {
+	width: 100%;
+}
+.ec_people-block1 {
+	display: flex;
+	margin: 40px 0;
+}
+
+
+
+.ec_info-title {
+	font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 106%;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.sub-title_block {
+	display: flex;
+	margin: 20px 0;
+	align-items: center;
+}
+.tier {
+	font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 88%;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.level {
+	margin: 0px 0px 0px 10px;
+}
+.ec_info-sub-title {
+	font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 136%;
+letter-spacing: 0em;
+text-align: left;
+	width: 50%;
+	position: relative;
+	left: 0;
+	transition: all 0.5s ease 0s;
+}
+
+.ec_info-sub-title:hover{
+	left: 10px;
+	transition: all 0.5s ease 0s;
+}
+
+.ec-img {
+	width: 30%;
+	transition: all 0.5s ease 0s;
+}
+
+.ec-img:hover{
+	transform: rotate(-5deg);
+	transition: all 0.5s ease 0s;
+}
+
+
+
+
+
 
 
 
 .exclusive_content-page{
 	width: 100%;
-	min-height: 100vh;
+	height: 365vh;
 	background-color: #FBF1E6;
 }
 

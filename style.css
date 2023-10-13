@@ -154,12 +154,12 @@ text-align: center;
 
 .collection-page {
 	width: 100%;
-	height: 100vh;
+	height: 110vh;
 }
 
 .collection-page_body {
 	width: 100%;
-	height: 100vh;
+	height: 110vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -181,7 +181,8 @@ text-align: center;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	margin: 0px 0px 0px 180px;
+	margin-left: 40%;
+	margin-bottom: 5px;
 }
 .collection-title {
 	font-family: Montserrat;
@@ -262,6 +263,13 @@ text-align: left;
 		width: 200px;
 		margin: 0;
 	}
+	.img_right-part {
+		width: 350px;
+		height: 350px;
+	}
+	.sub-text{
+		font-size: 14px;
+	}
 }
 
 @media(max-width: 840px){
@@ -279,6 +287,9 @@ text-align: left;
 	}
 	.sub-title{
 		width: 200px;
+	}
+	.sub-text{
+		font-size: 12px;
 	}
 }
 
@@ -312,6 +323,33 @@ text-align: left;
 	.openSea{
 		margin: 20px 0px 0px 0px;
 	}
+	.collection-page_part2{
+		flex-direction: column;
+		align-items: center;
+	}
+	.text_left-part{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sub-text{
+		text-align: center;
+	}
+	.img_right-part {
+		width: 300px;
+		height: 300px;
+		margin: 30px 0px 0px 0px;
+	}
+
 
 }
-
+@media(max-width: 360px){
+	.collection-sub-title{
+		margin-left: 30%;
+	}
+	.img_right-part{
+		width: 200px;
+		height: 200px;
+		margin: 10px 0px 0px 0px;
+	}
+}

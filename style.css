@@ -212,9 +212,16 @@ line-height: 138%;
 letter-spacing: 0em;
 text-align: left;
 	margin: 10px 0;
+	position: relative;
+	left: 0;
+	transition: all 0.5s ease 0s;
 }
 
-.sub-text:hover
+.sub-text:hover{
+	position: relative;
+	left: 5px;
+	transition: all 0.5s ease 0s;
+}
 
 .img_right-part {
 	width: 450px;

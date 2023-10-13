@@ -242,6 +242,7 @@ text-align: left;
 
 .wave, .wave2{
 	width: 100%;
+	
 }
 
 .wave{
@@ -271,6 +272,8 @@ width: 30px;
 height: 30px;
 border-radius: 50%;
 	background-color: #FF8961;
+	position: relative;
+	top: 40px;
 	
 }
 
@@ -281,7 +284,7 @@ font-weight: 700;
 line-height: 116%;
 letter-spacing: 0em;
 text-align: left;
-	margin: 10px 0px 50px 0px;
+	margin: 40px 0px 50px 0px;
 }
 .ec {
 	width: 100%;
@@ -408,6 +411,15 @@ text-align: left;
 	.sub-text{
 		font-size: 12px;
 	}
+	.ec_people-block1{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.ec-img{
+		width: 200px;
+		margin-top: 40px;
+	}
 }
 
 @media(max-width: 630px){
@@ -457,7 +469,13 @@ text-align: left;
 		height: 300px;
 		margin: 30px 0px 0px 0px;
 	}
-
+	.ec_info-sub-title{
+		font-size: 14px;
+		width: 100%;
+	}
+	.ec_title{
+		font-size: 30px;
+	}
 
 }
 @media(max-width: 360px){

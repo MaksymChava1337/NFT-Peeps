@@ -166,7 +166,7 @@ text-align: center;
 	align-items: center;
 }
 .collection-page_part1 {
-	margin: 40px 0px 0px 0px;
+	margin: 60px 0px 0px 0px;
 }
 .collection-sub-title {
 	display: flex;
@@ -202,8 +202,7 @@ text-align: center;
 	flex-direction: column;
 	justify-content: center;
 }
-.bored-peeps {
-}
+
 .sub-text {
 	width: 50%;
 	font-family: Open Sans;
@@ -214,10 +213,9 @@ letter-spacing: 0em;
 text-align: left;
 	margin: 10px 0;
 }
-.mint-prince {
-}
-.why-bored-peeps {
-}
+
+.sub-text:hover
+
 .img_right-part {
 	width: 450px;
 }

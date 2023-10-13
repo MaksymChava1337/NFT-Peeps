@@ -153,30 +153,85 @@ text-align: center;
 
 
 .collection-page {
+	width: 100%;
+	height: 100vh;
 }
-.container {
-}
+
 .collection-page_body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .collection-page_part1 {
+	margin: 40px 0px 0px 0px;
 }
 .collection-sub-title {
+	display: flex;
+	align-items: flex-end;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 138%;
+	letter-spacing: 0em;
+	background-color: orange;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0px 0px 0px 180px;
 }
 .collection-title {
+	font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 89%;
+letter-spacing: 0em;
+text-align: center;
+
 }
 .collection-page_part2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0px 0px 0px;
 }
 .text_left-part {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .bored-peeps {
 }
 .sub-text {
+	width: 50%;
+	font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 138%;
+letter-spacing: 0em;
+text-align: left;
+	margin: 10px 0;
 }
 .mint-prince {
 }
 .why-bored-peeps {
 }
 .img_right-part {
+	width: 450px;
+}
+hr{
+	width: 60%;
+}
+.main-text{
+	font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 91%;
+letter-spacing: 0em;
+text-align: left;
+	margin: 20px 0px 0px 0px;
 }
 
 

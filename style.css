@@ -142,11 +142,28 @@ text-align: center;
 	transition: all 0.3s ease 0s;
 }
 
-.main-page_part3 {
-}
 .peopleimg2 {
 	width: 300px;
 	margin: 0px 0px 0px 70px;
+}
+
+@media(max-width: 1180px){
+	.peopleimg{
+		width: 200px;
+	}
+	.peopleimg2{
+		width: 200px;
+	}
+}
+
+@media(max-width:980px){
+	.peopleimg{
+		width: 200px;
+		margin: 0;
+	}
+	.peopleimg2{
+		width: 200px;
+	}
 }
 
 @media(max-width: 840px){
